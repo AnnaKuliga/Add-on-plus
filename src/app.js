@@ -13,14 +13,14 @@ function showTimezone(event) {
 
   if (event.target.value.length > 0)
     if (event.target.value === "warsaw") {
-      alert(`It is ${warsawTimezone}`);
+      alert(`It is ${warsawTimezone} in ${event.target.value}`);
     }
 
   if (event.target.value === "new-york") {
-    alert(`It is ${newYorkTimezone}`);
+    alert(`It is ${newYorkTimezone} in ${event.target.value}`);
   }
   if (event.target.value === "sydney") {
-    alert(`It is ${sydneyTimezone}`);
+    alert(`It is ${sydneyTimezone} in ${event.target.value}`);
   }
 }
 
