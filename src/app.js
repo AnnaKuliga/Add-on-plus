@@ -12,14 +12,14 @@ function showTimezone(event) {
     .format("dddd, MMMM D YYYY h:mm a");
 
   if (event.target.value.length > 0)
-    if (event.target.value === "warsaw") {
+    if (event.target.value === "Warsaw") {
       alert(`It is ${warsawTimezone} in ${event.target.value}`);
     }
 
-  if (event.target.value === "new-york") {
+  if (event.target.value === "New York") {
     alert(`It is ${newYorkTimezone} in ${event.target.value}`);
   }
-  if (event.target.value === "sydney") {
+  if (event.target.value === "Sydney") {
     alert(`It is ${sydneyTimezone} in ${event.target.value}`);
   }
 }
